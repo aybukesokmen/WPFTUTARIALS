@@ -1,0 +1,15 @@
+﻿<Page x:Class="PageDeneme.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PageDeneme"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1">
+
+    <Grid Background="#FFA51E1E">
+        <TextBlock Text="This is Page 1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="48" FontWeight="Bold"/>
+        <Button Content="page2" x:Name="btn_page2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,294,0,0" Height="58" Width="183" Click="btn_page2_Click"/>
+    </Grid>
+</Page>
